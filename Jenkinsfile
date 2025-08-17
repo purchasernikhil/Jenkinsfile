@@ -1,4 +1,4 @@
-@Library('roboshop-shared-library') _
+@Library('shared') _
 
 def configMap = [
     application: "nodeJSEKS", // we are migrating monolithic to Microservice
