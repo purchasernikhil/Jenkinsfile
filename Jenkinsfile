@@ -1,8 +1,8 @@
 @Library('shared') _
 
 def configMap = [
-    application: "JavaVM", // we are migrating monolithic to Microservice
-    component: "mongodb"
+    application: "JavaEKS", // we are migrating monolithic to Microservice
+    component: "catalogue"
 ]
 env
 
